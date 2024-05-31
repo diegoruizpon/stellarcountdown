@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Countdown</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Countdown to Special Events</h1>
+        <div id="events">
+            {% for event in events %}
+                <div class="event">
+                    <h2>{{ event.event_type }} - {{ event.celestial_body }}</h2>
+                    <p>Event Date: {{ event.date }}</p>
+                    <p>Time remaining: <span class="countdown" data-date="{{ event.date }}"></span></p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <script src="/static/js/countdown.js"></script>
+</body>
+</html>
