@@ -4,5 +4,8 @@ from app.models import Event
 
 @app.route('/')
 def index():
+    
     events = Event.query.all()
-    return render_template('index.html', events=events)
+    
+    return render_template('index2.html')
+    #return render_template('index.html', events=events)

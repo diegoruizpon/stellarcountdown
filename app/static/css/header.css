@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 14px 54px;
+  text-transform: uppercase;
+  color: #b7b7b7;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.header-button {
+  margin: 0 20px;
+  transition: transform 0.2s;
+}
+
+.header-button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.language-button-section {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  transition: transform 0.2s;
+}
+
+.language-button-section img {
+  width: 20px;
+  margin-left: 8px;
+}
+
+.language-button-section:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
