@@ -1,0 +1,43 @@
+.scrolling-indicator-section {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.scrolling-indicator-section p {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.scrolling-indicator-section img {
+  scale: 0.5;
+  animation: bounce 2s infinite;
+}
+
+@keyframes rebounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37">
+  <g id="world_icon" transform="translate(-1651 -55)">
+    <g id="Elipse_1" data-name="Elipse 1" transform="translate(1651 55)" fill="none" stroke="#b7b7b7" stroke-width="2">
+      <circle cx="18.5" cy="18.5" r="18.5" stroke="none"/>
+      <circle cx="18.5" cy="18.5" r="17.5" fill="none"/>
+    </g>
+    <g id="Elipse_2" data-name="Elipse 2" transform="translate(1661 55)" fill="none" stroke="#b7b7b7" stroke-width="2">
+      <ellipse cx="8.5" cy="18.5" rx="8.5" ry="18.5" stroke="none"/>
+      <ellipse cx="8.5" cy="18.5" rx="7.5" ry="17.5" fill="none"/>
+    </g>
+    <line id="Línea_3" data-name="Línea 3" x2="36" transform="translate(1651.5 73.5)" fill="none" stroke="#b7b7b7" stroke-width="2"/>
+    <path id="Trazado_1" data-name="Trazado 1" d="M3645.055,63.189s13.052,8.909,29,0" transform="translate(-1990)" fill="none" stroke="#b7b7b7" stroke-width="2"/>
+    <path id="Trazado_2" data-name="Trazado 2" d="M3645.055,67.148s13.052-8.909,29,0" transform="translate(-1990 16.663)" fill="none" stroke="#b7b7b7" stroke-width="2"/>
+  </g>
+</svg>
